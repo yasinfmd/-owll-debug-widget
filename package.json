@@ -1,6 +1,6 @@
 {
   "name": "@owll/debug-widget",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "main": "./dist/owll-debug-widget.umd.js",
   "module": "./dist/owll-debug-widget.es.js",
@@ -53,7 +53,6 @@
   "dependencies": {
     "@owll/debug-widget": "file:",
     "@owll/owll-debug-widget": "file:",
-    "axios": "^1.8.4",
     "debug-widget": "file:",
     "html2canvas": "^1.4.1",
     "owll-debug-widget": "file:"
