@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Owll Debug Widget Demo</title>
+
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    button {
+      margin: 5px;
+      padding: 8px 12px;
+      border-radius: 8px;
+      background-color: aqua;
+    }
+  </style>
+</head>
+<body>
+  <h1>Owll Debug Widget Demo</h1>
+  
+  <div>
+    <h2>Test Fonksiyonları</h2>
+    <button onclick="testInfo()">Info Log</button>
+    <button onclick="testWarn()">Warn Log</button>
+    <button onclick="testError()">Error Log</button>
+    <button onclick="testDebug()">Debug Log</button>
+    <button onclick="testObject()">Object Log</button>
+  </div>
+
+  <script>
+    function testInfo() {
+      console.log("Bu bir bilgi mesajıdır.");
+    }
+    
+    function testWarn() {
+      console.warn("Bu bir uyarı mesajıdır!");
+    }
+    
+    function testError() {
+      console.error("Bu bir hata mesajıdır!!");
+    }
+    
+    function testDebug() {
+      console.debug("Bu bir debug mesajıdır.");
+    }
+    
+    function testObject() {
+      console.log("Kompleks veri:", { id: 1, name: "Test", values: [1, 2, 3] });
+    }
+
+    // Başlangıçta birkaç log atalım
+    console.log("Sayfa yüklendi!");
+    console.info("Debug Widget demo sayfası hazır.");
+
+    
+  </script>
+
+  <script type="module" src="/src/index.ts"></script>
+</body>
+</html>

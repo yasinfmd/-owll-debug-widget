@@ -1,0 +1,40 @@
+{
+  "name": "@owll/debug-widget",
+  "version": "1.0.2",
+  "type": "module",
+  "main": "./dist/owll-debug-widget.umd.js",
+  "module": "./dist/owll-debug-widget.es.js",
+  "author": "Yasin Dalkılıç",
+  "license": "MIT",
+  "keywords": [
+    "debug",
+    "@owll",
+    "logger"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/owll-debug-widget.es.js",
+      "require": "./dist/owll-debug-widget.umd.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0"
+  },
+  "dependencies": {
+    "@owll/debug-widget": "file:",
+    "@owll/owll-debug-widget": "file:",
+    "axios": "^1.8.4",
+    "debug-widget": "file:",
+    "html2canvas": "^1.4.1",
+    "owll-debug-widget": "file:"
+  }
+}
