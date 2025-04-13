@@ -6,6 +6,14 @@
   "module": "./dist/owll-debug-widget.es.js",
   "author": "Yasin Dalkılıç",
   "license": "MIT",
+  "homepage": "https://github.com/yasinfmd/-owll-debug-widget#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasinfmd/-owll-debug-widget.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yasinfmd/-owll-debug-widget/issues"
+  },
   "keywords": [
     "debug",
     "@owll",
