@@ -18,7 +18,7 @@ You can install the widget using either npm or yarn:
 ```bash
 npm install @owll/debug-widget
 # or
-yarn add @owll/debug-widget```
+yarn add @owll/debug-widget
  ```
 ## Implementation
 
