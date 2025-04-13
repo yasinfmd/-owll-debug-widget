@@ -16,8 +16,21 @@
   },
   "keywords": [
     "debug",
-    "@owll",
-    "logger"
+    "widget",
+    "web application",
+    "javascript",
+    "log",
+    "console log",
+    "network log",
+    "fetch",
+    "XMLHttpRequest",
+    "screenshot",
+    "customizable",
+    "theme",
+    "position",
+    "development",
+    "production",
+    "debugging"
   ],
   "exports": {
     ".": {
