@@ -1,6 +1,6 @@
 {
   "name": "@owll/debug-widget",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "type": "module",
   "main": "./dist/owll-debug-widget.umd.js",
   "module": "./dist/owll-debug-widget.es.js",
