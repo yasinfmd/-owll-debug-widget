@@ -62,3 +62,12 @@ To integrate and start the debug widget in your web application, follow these st
     Refer to the official documentation for any other available configuration options.
 
 This demonstrates how to use the `DebugOptions` interface to configure the widget with specific `position` and `theme` values.
+
+
+## Support
+
+For support, you can reach out via [Buy Me A Coffee](https://buymeacoffee.com/yasindlklcc).
+
+## License
+
+This project is licensed under the MIT License.
